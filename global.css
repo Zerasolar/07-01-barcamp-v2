@@ -1,0 +1,271 @@
+body{
+  overflow: hidden;
+  margin: 0px;
+  font-family: 'Rokkitt', serif;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.title1{
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  height: 55px;
+  width: 200px;
+}
+
+.menu{
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+.bc{
+  display: block;
+  height: 60px;
+  margin-bottom: -6px;
+  background: #2D4947;
+}
+
+.hero_mountains, .hero_lake, .hero_trees,.hero_logo{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.hero_mountains{
+  background: url("assets/mountains.jpg") repeat-x scroll center center;
+  margin-top: 60px;
+  width: 100%;
+  height: 85%;
+}
+
+.contentwrapper{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.hero_lake{
+  height: 80%;
+  margin-top: 100px;
+
+}
+
+.hero_trees{
+  height: 85%;
+  margin-top: 60px;
+
+}
+
+.hero_logo{
+  width: 30%;
+  left: 50%;
+  margin-left: -70px;
+  margin-top: 320px;
+  max-width: 100%;
+  height: auto;
+}
+
+.bc2{
+  position: relative;
+  margin-top: 600px;
+  display: block;
+  height: 70px;
+  background: #546564;
+}
+
+.date{
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.aiga{
+  width: 50%;
+  position: absolute;
+  margin-top: -68px;
+  margin-left: 130px;
+}
+
+.bird{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 225px;
+  margin-top: 125px;
+  margin-bottom: -6px;
+}
+
+.register_bird{
+
+}
+
+.title4{
+  margin-top: 90px;
+}
+
+.talk{
+  margin-top: 30px;
+  padding: 15px;
+  text-align: left;
+  color: #546564;
+}
+
+p{
+  font-size: 22px;
+}
+
+.talk2{
+  margin-top: 80px;
+  text-align: center;
+  font-size: 34px;
+  color: #546564;
+}
+
+.dash{
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("assets/part2/dash-horizontal.png");
+  background-repeat: repeat-x;
+  width: 350px;
+  height: 15px;
+}
+
+.section2titles{
+  text-align: center;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  color: #6DA13D;
+}
+
+.section2pics{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -5px;
+}
+
+.list{
+  list-style-type: none;
+  color: #6B502C;
+  line-height: 2;
+  text-align: center;
+  display: inline;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+hr{
+  margin-top: 130px;
+  margin-bottom: -40px;
+  height: .5px;
+  width: 325px;
+  color: #6B502C;
+}
+
+.backgroundbrown{
+  display: block;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("assets/board.png");
+  background-repeat: repeat;
+  width: 375px;
+  height: 4350px;
+}
+
+.event{
+  margin-top: 120px;
+  margin-left: -70px;
+  transform: scale( 0.65, 0.65);
+}
+
+.colortext{
+  text-align: center;
+}
+
+.colortext > h1{
+  font-size: 50px;
+  color: #ECC44F;
+}
+.colortext > p{
+  padding: 20px;
+  font-size: 22px;
+  color: white;
+}
+
+.circle{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  border-radius: 80%;
+  width: 65px;
+  height: 65px;
+  border: 2.5px solid #CF5834;
+  font-size: 30px;
+  text-align: center;
+}
+
+.circle > h2 {
+  margin-top: 0px;
+}
+
+.circle > p {
+  font-size: 18px;
+  margin-top: -45px;
+}
+
+.arial_time{
+  color: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.arial_time > p {
+  padding: 20px;
+  line-height: 180%;
+  font-size: 16px;
+}
+
+.fire{
+  margin-left: -270px;
+  transform: scale( 0.35, 0.35);
+}
+
+
+.backgroundblue{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #CBECF7;
+  width: 375px;
+  height: 900px;
+  color: #6B502C;
+}
+
+
+.backgroundblue > img{
+  margin-top: 120px;
+  margin-left: 75px;
+}
+
+.backgroundblue > ul{
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  list-style-image: url("assets/part4/plus-bullet.png");
+  line-height: 410%;
+}

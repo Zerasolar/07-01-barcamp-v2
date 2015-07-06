@@ -1,0 +1,135 @@
+body{
+  overflow: hidden;
+  margin: 0px;
+  font-family: 'Rokkitt', serif;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.title1{
+  margin-top: 3px;
+  height: 55px;
+  width: 200px;
+}
+
+.menu{
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+.bc{
+  display: block;
+  height: 60px;
+  margin-bottom: -6px;
+  background: #2D4947;
+}
+
+.hero_mountains, .hero_lake, .hero_trees,.hero_logo{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.hero_mountains{
+  background: url("assets/mountains.jpg") repeat-x scroll center center;
+  margin-top: 60px;
+  width: 100%;
+  height: 85%;
+}
+
+.contentwrapper{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.hero_lake{
+  height: 79%;
+  margin-top: 104px;
+
+}
+
+.hero_trees{
+  height: 80%;
+  margin-top: 60px;
+
+}
+
+.hero_logo{
+  width: 30%;
+  left: 50%;
+  margin-left: -70px;
+  margin-top: 320px;
+  max-width: 100%;
+  height: auto;
+}
+
+.bc2{
+  margin-top: 600px;
+  display: block;
+  height: 80px;
+  background: #546564;
+}
+
+.date{
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.aiga{
+  width: 50%;
+  margin-top: -68px;
+  margin-left: 90px;
+}
+
+.bird{
+  width: 50px;
+  height: 50px;
+  margin-left: 225px;
+  margin-top: 125px;
+  margin-bottom: -6px;
+}
+
+.register_bird{
+
+}
+
+.title4{
+  margin-top: 90px;
+}
+
+.talk{
+  margin-top: 30px;
+  padding: 15px;
+  text-align: left;
+  color: #546564;
+}
+
+p{
+  font-size: 22px;
+}
+
+.talk2{
+  margin-top: 80px;
+  text-align: center;
+  font-size: 34px;
+  color: #546564;
+}
+
+.dash{
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("assets/part2/dash-horizontal.png");
+  background-repeat: repeat-x;
+  width: 350px;
+  height: 15px;
+}

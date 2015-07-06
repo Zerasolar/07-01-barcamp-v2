@@ -1,86 +1,86 @@
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 body{
   margin: 0px;
   font-family: 'Rokkitt', serif;
 }
 
-header {
-  background-color: #2D4A48;
-  padding: 10px;
-  height: 60px;
-}
-
 header img {
   height: 45px;
 }
 
-.image--container {
-  width: 250px;
-  margin: 0 auto;
+.barcamp--logo{
+  padding: 10px 0 10px 10px;
+  background: #2d4947;
 }
 
-.hero_mountains{
+.barcamp--logo__graphic{
+  width: 200px;
+}
+
+.menu{
+  float: right;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.header--image{
   position: relative;
   height: 600px;
-  background: url('assets/trees.png'), url('assets/lake.png'), url('assets/mountains.jpg');
+  background: url("assets/trees.png"), url("assets/lake.png"), url("assets/mountains.jpg");
   background-position: 50% 50%;
   background-size: cover;
   text-align: center;
 }
 
-.hero_logo{
+.image--container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero--logo{
   width: 100%;
   margin-top: 50px;
 }
 
 .date{
-  height: 100%;
   width: 70%;
 }
 
 .aiga{
-  padding: 5px;
-  height: 60px;
+  padding: 5px 0;
   background: #546564;
   text-align: center;
 }
 
 .aiga--graphic {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  top: -65px;
-  width: 80%;
+  width: 90%;
   max-width: 350px;
-}  
+}
 
+/*.bc{
+  display: block;
+  height: 60px;
+  width: 355px;
+  margin-bottom: -6px;
+  background: #2D4947;
+}*/
+
+/*.bc2{
+  display: block;
+  height: 60px;
+  width: 355px;
+  background: #546564;
+}*/
 
 .bird{
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 250px;
+  margin-top: 600px;
   height: 50px;
   width: 50px;
 }
 
 .birdline{
-  background-image: url("./assets/buttonLines.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 100%;
-  height: 300px;
-  text-align: center;
-  margin-top: -130px;
-  margin-left: 10px;
+  margin-top: -30px;
+  margin-left: -20px;
 }
 
 /*.button {
@@ -97,15 +97,14 @@ font: 700 18px "Arial";
 border-radius: 50px;*/
 
 .button {
+  margin-left: 120px;
+  margin-top: -100px;
   display: block;
-  margin: 0 auto;
-  position: relative;
-  top: -170px;
-  height: 40px;
+  height: 30px;
   width: 150px;
   text-align: center;
-  padding: 12px 38px 15px;
-  border-radius: 50px;
+  padding: 17px 38px 15px;
+  border-radius: 40px;
   background: #6ba236;
   color: #fff;
   font: 700 18px "proxima-nova", Arial, sans-serif;
@@ -138,12 +137,6 @@ p{
   background-repeat: repeat-x;
   width: 350px;
   height: 15px;
-}
-
-@media (min-width: 500px){
-  
-
-  
 }
 
 .section2titles{
@@ -190,7 +183,7 @@ hr{
   margin-right: auto;
   background-image: url("assets/board.jpg");
   background-repeat: repeat;
-  height: 3700px;
+  height: 4200px;
 }
 
 .event{
@@ -248,34 +241,25 @@ hr{
 }
 
 .fire{
-  padding-top: 35px;
-  position: relative;
-  left: -5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-
+  margin-left: -210px;
+  transform: scale( 0.35, 0.35);
 }
 
 
 .backgroundblue{
-  position: relative;
+  position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -150px;
   background-color: #CBECF7;
+  width: 500px;
   height: 1800px;
   color: #6B502C;
 }
 
 
-.faq{
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
+#faq{
+  margin-top: 120px;
+  margin-left: 40px;
 }
 
 .backgroundblue > ul{
@@ -287,12 +271,10 @@ hr{
   line-height: 410%;
 }
 
-.tower{
-  position: relative;
-  bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
-  margin-bottom: -5px;
+#tower{
+  height: 50%;
+  width: 100%;
+  margin-top: 50px;
+  margin-left: -10px;
   
 }
